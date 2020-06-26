@@ -1,0 +1,23 @@
+.tab-name {
+font-size: 11px;
+color: #15A7FD;
+line-height: 10px;
+}
+
+.nav-bar {
+  margin: 0px !important;
+  flex-wrap: nowrap !important;
+  overflow-x: auto;
+}
+
+.nav-bar::-webkit-scrollbar {   
+   display: none;
+}
+
+.nav-item {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10px;
+} 
